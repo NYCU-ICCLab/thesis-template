@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Thesis Title</title>
+  <meta name="description" content="One-line description of the work" />
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin-inline: auto; max-width: 46rem; padding: 4rem 1.25rem;
+      font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans TC", sans-serif;
+      color: #16181d; background: #fff;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { color: #e7e9ee; background: #0e1014; }
+      a { color: #8ab4ff; }
+    }
+    h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .5rem; }
+    .subtitle { font-size: 1.15rem; opacity: .8; margin: 0 0 1.5rem; }
+    .meta { font: 500 .85rem/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace; opacity: .7; margin: 0 0 2.5rem; }
+    .note {
+      margin-top: 3rem; padding: 1rem 1.25rem 1.25rem; border-radius: .6rem;
+      border: 1px dashed currentColor; opacity: .85; font-size: .95rem;
+    }
+    code { font-family: ui-monospace, Menlo, Consolas, monospace; }
+  </style>
+</head>
+<body>
+  <h1>Your Thesis Title</h1>
+  <p class="subtitle">One-line description of the work</p>
+  <p class="meta">Your Name (你的名字) · Advisor: Advisor Name (指導教授) · 2026</p>
+
+  <h2>Abstract</h2>
+  <p>
+    Replace this with your abstract. This page is the full thesis site that the
+    portal links out to — build it however you like (plain HTML, a framework
+    export, slides, an interactive demo).
+  </p>
+
+  <div class="note">
+    <strong>Starter checklist</strong>
+    <ol>
+      <li>Edit this <code>index.html</code> (and add any assets).</li>
+      <li>Fill in <code>thesis.json</code> — that's the card the portal renders.</li>
+      <li>Enable Pages: Settings &rarr; Pages &rarr; Source: <em>GitHub Actions</em>.</li>
+    </ol>
+    See <code>README.md</code> for details. Delete this box when you're done.
+  </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "slug": "thesis-REPLACE-ME",
+  "title": "Your Thesis Title",
+  "subtitle": "One-line description of the work",
+  "authors": ["Your Name (你的名字)"],
+  "advisor": "Advisor Name (指導教授)",
+  "year": 2026,
+  "institution": "NYCU · Your Institute",
+  "tags": ["tag1", "tag2"],
+  "abstract": "Two or three sentences summarising the thesis. Keep it short — the portal clamps it to a few lines on the card.",
+  "url": "https://<LAB-ORG>.github.io/thesis-REPLACE-ME/",
+  "repo": "https://github.com/<LAB-ORG>/thesis-REPLACE-ME",
+  "archive": false
+}
