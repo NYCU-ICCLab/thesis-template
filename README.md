@@ -13,7 +13,7 @@ and is indexed by the lab's `thesis-collection` portal.
    slides, a demo.
 2. **Fill in `thesis.json`.** This is the metadata the portal turns into a card.
    `slug`, `title`, and `url` are required; the rest is optional. Set `url` to
-   this site's live address, `https://<LAB-ORG>.github.io/thesis-<slug>/`, and
+   this site's live address, `https://nycu-icclab.github.io/thesis-<slug>/`, and
    replace the `REPLACE-ME` placeholders.
 3. **Enable Pages.** Settings → Pages → **Source: GitHub Actions** (one-time).
    Every push to `main` then deploys automatically via
@@ -23,7 +23,7 @@ and is indexed by the lab's `thesis-collection` portal.
 
 - **Submodule (recommended, auto-synced).** In the `thesis-collection` repo:
   ```bash
-  git submodule add https://github.com/<LAB-ORG>/thesis-<slug> theses/<slug>
+  git submodule add https://github.com/nycu-icclab/thesis-<slug> theses/<slug>
   git commit -am "Add thesis: <slug>"
   git push
   ```
@@ -43,8 +43,8 @@ and is indexed by the lab's `thesis-collection` portal.
   "institution": "NYCU · Your Institute",
   "tags": ["tag1", "tag2"],
   "abstract": "Short summary.",
-  "url": "https://<LAB-ORG>.github.io/thesis-<slug>/",
-  "repo": "https://github.com/<LAB-ORG>/thesis-<slug>",
+  "url": "https://nycu-icclab.github.io/thesis-<slug>/",
+  "repo": "https://github.com/nycu-icclab/thesis-<slug>",
   "archive": false
 }
 ```
